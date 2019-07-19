@@ -8,7 +8,7 @@ It uses [material-ui-next](https://material-ui-next.com/) for componets
 
 # Setup
 
-1. Use node v10.16.
+1. Use node v10.16.0
 
   Install NVM
   ```shell
