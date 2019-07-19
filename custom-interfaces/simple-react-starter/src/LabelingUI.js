@@ -11,8 +11,8 @@ export function LabelingUI({label, data, onLabelUpdate}) {
       <div>Data: {data}</div>
       <br/>
       <br/>
-      <FormControl component={"fieldset"} required>
-        <FormLabel component={"legend"}>This section can contain any labeling interface.</FormLabel>
+      <FormControl component="fieldset" required>
+        <FormLabel component="legend">This section can contain any labeling interface.</FormLabel>
         <RadioGroup
           aria-label="gender"
           name="gender1"
