@@ -6,4 +6,4 @@ build:
 	-t ${LOCAL_IMAGE} .
 
 run-local-export: $(info EXPORT SAVE DESTINATION is $(OUTPUT_DEST)) build
-	docker run -it --rm -v ${OUTPUT_DEST}:/output -v $(EXPORT_PATH):/input ${LOCAL_IMAGE}
+	docker run -it --rm -v ${OUTPUT_DEST}:/output -v ${EXPORT_PATH}:/input ${LOCAL_IMAGE}
