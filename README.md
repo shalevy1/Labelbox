@@ -186,8 +186,8 @@ hosting service on-hand, you can quickly get setup with
 ### COCO and VOC Exporters
 If you need to convert a Labelbox JSON export asset to VOC or COCO file formats, see the README for each directory in this repo:
 
-* [COCO](https://github.com/Labelbox/Labelbox/tree/master/exporters/voc-exporter)
-* [VOC](https://github.com/Labelbox/Labelbox/tree/master/exporters/coco-exporter)
+* [VOC](https://github.com/Labelbox/Labelbox/tree/master/exporters/voc-exporter)
+* [COCO](https://github.com/Labelbox/Labelbox/tree/master/exporters/coco-exporter)
 
 ## Terms of use, privacy and content dispute policy
 Here is our [terms of service, privacy and content dispute policy](https://www.dropbox.com/s/ph6w2ov4i4v5pf9/Labelbox_Terms_Privacy_Content.pdf?dl=0)
