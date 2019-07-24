@@ -1,5 +1,5 @@
 LOCAL_IMAGE := coco
-OUTPUT_DEST := $(shell pwd)/output
+OUTPUT_DEST := $(shell dirname $(EXPORT_PATH))/output
 
 build:
 	docker build \

@@ -8,16 +8,19 @@ First clone the repository to access the converter script aka:
 git clone https://github.com/Labelbox/Labelbox.git
 ```
 
-To get started if you do not already have Docker you'll want to download and install Docker desktop. You can do so here: [docker-hub](https://hub.docker.com/). 
+To get started you'll want to download and install Docker on your desktop. 
+Follow the installation and setup instructions at [docker-hub](https://www.docker.com/products/docker-desktop).
 
 Once you have installed Docker, you may run the converter inside a docker container. To do so simply run the following command from this directory (where `${PATH_TO_INPUT}` is the location of your Labelbox JSON export file on your local machine). 
-Note: The VOC export output location if unmodified will be saved in this directory (aka `Labelbox/exporters/voc-exporter/output`).  
-```
-make run-local-export EXPORT_PATH=${PATH_TO_INPUT}
+Note: The VOC export output location, if unmodified, will be saved in same directory as the input file.  
+```sh
+# e.g. if your json export file is named "export.json" and is in your Downloads directory
+
+make run-local-export EXPORT_PATH=~/Downloads/export.json
 ```
 
 Should you wish to modify the location of the export output, you can also run:
-```
+```sh
 make run-local-export EXPORT_PATH=${PATH_TO_INPUT} OUTPUT_DEST=${PATH_TO_DESIRED_OUTPUT}
 ```
 
